@@ -73,6 +73,7 @@ class TestEndToEnd(TestCase):
     @contextmanager
     def create_container(self, cmd, image):
         try:
+            print ("ttttttt")
             platform = "x86_64" if self.ARCH == "" else self.ARCH
             cmd_full = f"docker run --platform linux/{platform} {cmd}"
             self.run_command(cmd_full)
