@@ -15,7 +15,7 @@ Lambda’s orchestrator, or security and authentication configurations. You can 
 
 
 ## Content
-* [Installing](#installing)
+* [Installing](#installing
 * [Getting started](#getting-started)
   * [Test an image with RIE included in the image](#test-an-image-with-rie-included-in-the-image)
     * [To test your Lambda function with the emulator](#to-test-your-lambda-function-with-the-emulator)
